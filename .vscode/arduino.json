@@ -1,6 +1,6 @@
 {
-    "configuration": "chip=3226,clock=20internal,bodvoltage=1v8,bodmode=disabled,eesave=enable,millis=enabled,resetpin=UPDI,startuptime=8,optimization=size,wiremode=mors,printf=default,attach=allenabled,WDTtimeout=disabled,WDTwindow=disabled",
-    "board": "megaTinyCore:megaavr:atxy6",
+    "configuration": "cpu=atmega328",
+    "board": "arduino:avr:nano",
     "programmer": "serialupdi",
     "sketch": "Perplex.ino"
 }
